@@ -2,23 +2,27 @@ h1,
 h2,
 h3,
 h4 {
+  font-family: "Yesteryear", cursive;
   font-weight: var(--font-weight-strong);
   line-height: 1;
   margin-bottom: 0.65em;
 }
 
 h1 {
+  font-family: "Yesteryear", cursive;
   font-size: var(--font-size-h1);
   font-size: clamp(2rem, 7vw, var(--font-size-h1));
 }
 
 h2 {
+  font-family: "Yesteryear", cursive;
   font-size: var(--font-size-h2);
   font-size: clamp(2rem, 4vw, var(--font-size-h2));
   text-align: center;
 }
 
 #main h2 {
+  font-family: "Yesteryear", cursive;
   background-color: var(--color-secondary);
   align-self: center;
   color: var(--color-background);
@@ -26,15 +30,18 @@ h2 {
 }
 
 h3 {
+  font-family: "Yesteryear", cursive;
   font-size: var(--font-size-h3);
 }
 
 h4 {
+  font-family: "Yesteryear", cursive;
   font-size: var(--font-size-h4);
 }
 
 p,
 li {
+  font-family: "DM Sans", sans-serif;
   font-size: var(--font-size-text);
 }
 
@@ -66,6 +73,7 @@ strong {
 }
 
 a {
+  font-family: "DM Sans", sans-serif;
   color: var(--color-anchor);
 }
 
